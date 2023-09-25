@@ -1,27 +1,27 @@
-## **Programming & Scripting Project: Fisher's Iris Dataset**
+# Programming & Scripting Project: Fisher's Iris Dataset
 ### by Sarah McNelis
 
 <br>
 
-## **Introduction** 
+## Introduction 
 The aim of this project is to research, investigate and analyse Fisher's Iris data set. I have written a program in python to complete this task. I have also included a full list of references and resources used. First let's take a look at the man behind the data set.
 
 <br>
 
-## **Ronald Fisher**
+## Ronald Fisher
 Sir Ronald Fisher (17 February 1890 – 29 July 1962) was a British statistician, eugenicist, and biologist. One of his most popular developments was the Iris flower data set also known as Fisher's Iris data set. It is a multivariate data set introduced by Ronald Fisher in his 1936 paper on _The use of multiple measurements in taxonomic problems_ as an example of linear discriminant analysis(LDA). The purpose of LDA as explained by Wikipedia is to portray the difference between classes of data.
 # ![fisher](images/imageFisher.jpg) 
 
 <br>
 
-## **Iris Flower Data Set**
+## Iris Flower Data Set
 The dataset contains a set of 150 records under five attributes - Sepal Length, Sepal Width, Petal Length, Petal Width and Species. 
 # ![flowers](images/imageFlowers.jpg)
 These records are broken down into three species: Iris-Setosa, Iris-Versicolor and Iris-Virginica. Each species contains 50 records each. Therefore, it is not a surprise that this data set became a popular test case for many statistical classification techniques in machine learning such as support vector machines (SVMs). Wikipedia explains that SVMs are supervised learning models with associated learning algorithms that examine data for classification and analysis.
 
 <br>
 
-## **Research & Analysis**
+## Research & Analysis
 - The first step of this project was researching the Iris data set. I downloaded the data set in a csv file format from Kaggle. I then decided to explore the different attributes of the data set. I found some images online which clarify which part of Iris flower is the sepal and which part is the petal. Sepals are usually green and offers support and protection to the petal. However, the sepal of the Iris flower is typically a shade of purple. The role of the petal is to surround and protect the reproductive part of the flower.
 # ![sepalPetal](images/imageSepalPetal.jpg)
 - The second step of this project was developing the code. This required importing various modules required to complete the analysis. Numpy and matplotlib are used for plotting the analysis, seaborn is a good tool for visualisation when plotting and pandas is used for analysing the data frame. After this I decided to do a bit of housekeeping. Pydata describes numerous settings that can be changed using pandas. I set the program to only allow one decimal place in the output display; pd.set_option('display.precision', 1). The number refers to the amount of floating points you wish to allow. I have chosen one decimal place as it is neater and easier to read.
@@ -57,12 +57,12 @@ For each of these plots I have assigned an attribute to the x and y axes. I have
 
 <br>
 
-## **Conclusion** 
+## Conclusion 
 After completing the data analysis of Fisher's Iris data set I have determined that there is a wealth of information available on this particular data frame. I used a substantial amount of resources in my research and development of my python program. There are numerous ways that this data set can be analysed and manipulated. I have used various functions to analyse the data set including exploring the shape of the data frame, the count of species present and a brief statistical summary of the data frame and of each species. I have also used both histograms and scatterplots to plot this analysis out. In my opinion, the most noticeable aspect of my analysis is the distinct difference between the Iris-Setosa attributes in comparison to the Iris-Versicolor and the Iris-Virginica. When you consider the pairplot in particular which gives a full overview of the data frame, the Iris-Versicolor and the Iris-Virginica seem to be similar to one another while the Iris-Setosa differs. Nonetheless, all three species are divisible from one another. And this may be another reason that Fisher's Iris data set is so popular amongst researchers in the data analytics.  
 
 <br>
 
-## **References**
+## References
 - _Descriptive or Summary Statistics in Python Pandas - Describe()_, (2021). Datasciencemadesimple. Available at: <<https://www.datasciencemadesimple.com/descriptive-summary-statistics-python-pandas/>> [Accessed April, 2021].
 - Fincher, J. _Reading and Writing CSV Files in Python_. Realpython. Available at: <<https://realpython.com/python-csv/#:~:text=Reading%20from%20a%20CSV%20file%20is%20done%20using,does%20the%20heavy%20lifting.%20Here%E2%80%99s%20the%20employee_birthday.txt%20file%3A>> [Accessed April, 2021].
 - _Iris.csv_, (2018). Kaggle. Available at: <<https://www.kaggle.com/saurabh00007/iriscsv>> [Accessed April, 2021].
